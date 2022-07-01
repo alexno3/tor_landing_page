@@ -4,6 +4,8 @@ body {
 
 header, footer {
   background-color: #1f2937;  
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .logo h2 {
@@ -12,9 +14,10 @@ header, footer {
 }
 
 .text-description h1 {
-    font-size: 48px;
-    font-weight: extra-bold;
+    font-size: 50px;
+    font-weight: 4000;
     color:#F9FAF8;
+    margin-bottom: -10px;
 }
 
 .text-description p, .header-links {
@@ -23,17 +26,64 @@ header, footer {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
-    width: 60px;
-    float: right;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
 }
-a {
-    color: #F9FAF8;
-    text-decoration: none;
+li a {
     display: block;
-    padding: 8px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.logo {
+    margin-top: -60px;
     
 }
+.description-container {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.image-description img {
+  width: 500px;
+  height: auto;
+  align-self: flex-end;
+  margin-left: 100px;
+  border-radius: 25px;
+}
+
+.text-description {
+  max-width: 400px;
+}
+
+.text-description p {
+  width: 300px;
+  line-height: 20px;
+}
+
+.text-description button {
+    background-color: rgba(22, 80, 238, 0.788);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
