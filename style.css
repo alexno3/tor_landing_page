@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+  background-color: #1f2937;  
+}
+
+.logo h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.text-description h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+}
+
+.text-description p, .header-links {
+    font-size: 18px;
+    color: #e5e8eb;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 60px;
+    float: right;
+}
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    
+}
