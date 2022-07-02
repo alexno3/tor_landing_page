@@ -1,11 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin: 0;
 }
 
 header, footer {
   background-color: #1f2937;  
   padding-left: 100px;
   padding-right: 100px;
+  border-radius: 5px;
 }
 
 .logo h2 {
@@ -45,6 +48,7 @@ li a {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+    border-radius: 5px;
   }
 
 .logo {
@@ -55,6 +59,7 @@ li a {
   margin-top: 50px;
   padding-bottom: 100px;
   display: flex;
+  margin-bottom: 50px;
 }
 
 .image-description img {
@@ -72,10 +77,11 @@ li a {
 .text-description p {
   width: 300px;
   line-height: 20px;
+  font-weight: lighter;
 }
 
 .text-description button {
-    background-color: rgba(22, 80, 238, 0.788);
+    background-color: #3882f6;
     border: none;
     color: white;
     margin-top: 10px;
@@ -86,4 +92,65 @@ li a {
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
+  }
+
+  .first_container h2 {
+    text-align: center;
+  }
+
+  .img-container {
+    margin-left: 40px;
+    max-width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    border: 5px solid rgba(30, 74, 196, 0.897);
+    
+  }
+
+  #first_img {
+    margin-left: 100px;
+  }
+
+
+  .text-container {
+    display: flex;
+    gap: 0px;
+  }
+
+
+
+  .text-container p {
+    text-align:;
+    max-width: 200px;
+    margin: 0 auto 20px;
+  }
+
+  #first_p {
+    margin-left: 100px;
+    margin-right: -50px;
+  }
+
+  #second_p {
+    margin-left: 150px;
+    margin-right: 220px;
+  }
+  
+
+  #third_p {
+    margin-left: -110px;
+    margin-right: 50px;
+    padding-right: 0px
+  }
+
+  #fourth_p {
+    margin-left: 50px;
+
+  }
+
+  .first_container {
+    margin-bottom: 200px;
+  }
+
+  .second_container {
+    background-color: #6f8ac598;
   }
